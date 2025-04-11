@@ -2,6 +2,7 @@
 *{
     font-family: 'Poppins',cursive;
 }
+
 body{
     color: azure;
     width: 100%;
@@ -11,7 +12,6 @@ body{
     align-items: center;
     justify-content: center;
     background-color: black;
-    /* padding-top: -30; */
 }
 
 .botones{
@@ -22,7 +22,7 @@ body{
 }
 
 .botones a{
-    background-color: #0a2be9;
+    background-color: #B695C0;
     padding: 9px;
     border-radius: 80px;
     -webkit-border-radius: 80px;
@@ -33,7 +33,7 @@ body{
 }
 
 .botones a:focus{
-    background-color: rgb(50, 194, 194);
+    background-color: rgb(194, 50, 146);
 }
 
 .greetings{
@@ -46,7 +46,7 @@ body{
 @keyframes glow{
     0%, 100%{
         color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+        text-shadow: 0 0 12px #B695C0, 0 0 50px #B695C0, 0 0 100px #B695C0;
     }
     10%, 90%{
         color: #111;
