@@ -1635,34 +1635,43 @@ h1 {
 }
 
 
+.button {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    z-index: 20;
+}
 
 .botones{
-    padding: 9px;
+    padding: 1px;
     border-radius: 80px;
     background-color: transparent;
     border: none;
-    position: fixed; 
-    top: 20px;   
-    right: 20px;   
-    z-index: 20;  
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
+/* Enlaces dentro de los botones */
 .botones a{
     background-color: #B695C0;
-    padding: 9px;
+    padding: 9px 20px;
     border-radius: 80px;
-    -webkit-border-radius: 80px;
-    -moz-border-radius: 80px;
-    -ms-border-radius: 80px;
-    -o-border-radius: 80px;
-
+    text-decoration: none;
+    font-weight: bold;
+    color: #111;
+    display: inline-block;
+    transition: background-color 0.3s ease;
 }
 
-.botones a:focus{
-    background-color: rgb(194, 50, 146);
+.botones a:focus,
+.botones a:hover {
+    background-color: rgb(100, 0, 87);
+    color: white;
 }
+
 
 
 /* Media Queries para tamaños de pantalla diferentes */
