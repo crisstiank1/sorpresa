@@ -1,6 +1,10 @@
 const envelope = document.querySelector('.envelope-wrapper');
 const letter = document.querySelector('.letter');
 
+function reproducirMusica() {
+    const audio = document.getElementById("miAudio");
+    audio.play();
+  }
 
 document.addEventListener('click', (e) => {
     if (
